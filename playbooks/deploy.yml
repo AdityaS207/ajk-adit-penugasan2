@@ -1,0 +1,12 @@
+---
+- name: set up backend-deploy
+  hosts: localhost
+  become: true
+  roles:
+    - ../roles/backend-deploy
+
+# - name: set up frontend-deploy
+#   hosts: localhost
+#   become: true
+#   roles:
+#     - ../roles/frontend-deploy

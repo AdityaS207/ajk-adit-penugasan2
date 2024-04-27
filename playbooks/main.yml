@@ -1,1 +1,10 @@
 ---
+- import_playbook: prepare.yml
+- import_playbook: build.yml
+- import_playbook: migrate.yml
+- import_playbook: deploy.yml
+
+
+- name: Main playbook
+  hosts: localhost
+  become: true

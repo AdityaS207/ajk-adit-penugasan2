@@ -1,0 +1,12 @@
+---
+- name: set up backend-build
+  hosts: localhost
+  become: true
+  roles:
+    - ../roles/backend-build
+
+# - name: set up frontend-build
+#   hosts: localhost
+#   become: true
+#   roles:
+#     - ../roles/frontend-build

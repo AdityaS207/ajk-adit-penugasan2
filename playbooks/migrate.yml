@@ -1,0 +1,7 @@
+---
+
+- name: set up backend-migrate
+  hosts: localhost
+  become: true
+  roles:
+    - ../roles/backend-migrate
