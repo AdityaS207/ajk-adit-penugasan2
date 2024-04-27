@@ -1,0 +1,6 @@
+---
+# vars file for env
+
+db_name: test_db
+db_user: adit1
+db_password: adit2

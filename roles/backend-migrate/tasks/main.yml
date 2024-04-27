@@ -1,2 +1,16 @@
 ---
 # tasks file for backend-migrate
+
+- name: Configure Laravel database
+  template:
+    src: templates/env-template
+    dest: /var/www/be-todo/.env
+  vars:
+    db_name: 'test_db'
+    db_user: 'adit1'
+    db_password: adit2
+
+- name: Generate App Key 2
+  command:
+    cmd: "php artisan migrate"
+    chdir: "/var/www/be-todo"

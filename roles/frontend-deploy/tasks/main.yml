@@ -1,2 +1,16 @@
 ---
 # tasks file for frontend-deploy
+
+- name: Copy fe template
+  become: true
+  copy:
+    src: frontend/templates/fe-template.j2
+    dest: /etc/nginx/sites-available/frontend
+
+- name: Link to site-enabled
+  file:
+    src: /etc/nginx/sites-available/frontend
+    dest: /etc/nginx/sites-enabled/frontend
+    state: link
+  become: true
+  notify: Restart nginx

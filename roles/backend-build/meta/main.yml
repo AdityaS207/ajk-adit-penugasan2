@@ -1,7 +1,8 @@
+---
 galaxy_info:
-  author: your name
-  description: your role description
-  company: your company (optional)
+  author: Aditya Situmorang
+  description: Backend build role
+  company: Institute of Technology Sepuluh Nopember
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -47,6 +48,8 @@ galaxy_info:
     # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
     #       Maximum 20 tags per role.
 
-dependencies: []
+dependencies:
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
+- role: nginx-prepare
+- role: mysql-prepare
