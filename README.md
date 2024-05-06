@@ -18,6 +18,7 @@ Dalam penugasan kali ini, hal pertama yang saya lakukan adalah membuat repositor
 Setelah membuatnya, maka saya akan langsung melakukan clone dan menyusun struktur repository sesuai yang diinginkan.
 
 Setelah itu pada folder roles, saya akan menjalankan perintah berikut: 
+
 ![image](https://github.com/AdityaS207/ajk-adit-penugasan2/assets/125870864/482c03c2-e6a9-4d5d-bc6b-4baef1dfbb0a)
 
 Setelah itu, saya akan mengisi tiap ansible dengan task-task yang sudah pernah dijalan kan pada pelatihan deployment. Saya juga menyesuaikannya seperti penjelasan yang sudah diberikan.
@@ -36,7 +37,11 @@ Saya masih tidak dapat mengakses backendnya melalui localhost:8000
 
 2. Clone repo FE
 Saya mengalami error seperti ini pada saat melakukan clone repo FE
-![image](https://github.com/AdityaS207/ajk-adit-penugasan2/assets/125870864/f1e0b0fb-aa76-46d4-8c92-d22edcb96b24)
 
-3. Push ke github
+![image](https://github.com/AdityaS207/ajk-adit-penugasan2/assets/125870864/fb7a390a-4bb0-4386-86ed-62553a2f7838)
+
+
+4. Push ke github
 Saya mengalami kesulitan pada saat melakukan push ke github karena adanya autentikasi
+
+![image](https://github.com/AdityaS207/ajk-adit-penugasan2/assets/125870864/f1e0b0fb-aa76-46d4-8c92-d22edcb96b24)
